@@ -7,7 +7,6 @@ $green-arrow: #A0EADE;
 
 
 html {
-    font-size: 10px;
     box-sizing: border-box;
 }
 
@@ -25,65 +24,68 @@ img {
 
 #school-label {
     margin: 0 auto;
-    width: 85%;
+    width: 90%;
     display: flex;
-    font-size: 2.5rem;
-    padding: 1.5rem 0;
-    
+    font-size: 25px;
+    padding-top: 5px;
+
     .school-id {
         display: flex;
         width: 35%;
+        padding-top: 10px;
+        margin-left: 45px;
 
-        // .school-badge {
-        //     width: 50px;
-        //     height: 50px;
-        // }
+        .school-badge {
+
+            // margin-bottom: -10px;
+            // width: 100px;
+            // height: 150px;
+        }
         .school-badge-text {
             display: flex;
             flex-direction: column;
             font-weight: 600;
+            font-size: 35px;
             line-height: 0.8;
             color: $blue-color;
-            padding-top: 3rem;
+            padding-top: 15px;
         }
     }
 
     .school-contact {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 0.2em;
-        padding-top: 2.5rem;
+        padding-top: 25px;
 
         .school-email, .school-phone  {
             display: flex;
             flex-direction: column;
-            font-size: 0.8em;
-            line-height: 1;
-            padding: 0 3rem;
+            line-height: 0.6;
+            padding: 0 35px;
             border-right: 1px solid $transparent-black;
-            height: 5rem;
+            height: 45px;
 
             .email-text, .phone-text {
                 font-weight: 200;
-                font-size: 0.6em;
-                margin: 0.5rem 0;
-                line-height: 0.5;
+                font-size: 16px;
+                margin: 10px 0;
+                line-height: 0.4;
                 opacity: 0.8;
             }
 
             .email-address, .phone-number {
-                font-weight: 500;
-                font-size: 1em;
+                font-size: 25px;
+                font-weight: 600;
             }
         }
 
         .button {
-            margin-left: 4rem;
-            padding: 1rem 2rem;
+            margin-left: 40px;
+            padding: 12px 20px;
             border: 3px solid $pink-color;
-            border-radius: 10px;
-            height: 5rem;
-            font-size: 0.5em;
+            border-radius: 8px;
+            height: 50px;
+            font-size: 15px;
             font-weight: 700;
             color: rgba(0, 0, 0, 0.5);
             &:hover {
@@ -98,22 +100,21 @@ img {
 nav {
     background-color: $blue-color;
     width: 100%;
-    font-size: 1.9rem;
-    font-size: 2rem;
+    font-size: 19px;
     font-weight: 600;
-    min-height: 6rem;
+    min-height: 70px;
     box-shadow: 0 4px 12px rgba(black, 0.1);
 
     ul {
         display: flex;
         flex-wrap: wrap;
         list-style: none;
-        padding-left: 12rem;
+        padding-left: 120px;
 
         li {  
-            padding: 2rem 1.5rem;
+            padding: 25px 15px;
             border-right: 1px solid $pink-color; 
-            max-height: 7rem;
+            max-height: 100px;
             cursor: pointer;   
             position: relative;
 
@@ -146,7 +147,7 @@ nav {
                 padding-left: 0;
                 border-top: 6px solid $pink-color;
                 position: absolute;
-                top: 68px;
+                top: 78px;
                 left: -1px;
                 background: white;
                 opacity: 0;
@@ -180,8 +181,8 @@ nav {
                         display: block;
                         color: black;
                         text-align: left;
-                        padding: 0 0.9rem;
-                        font-size: 1em;
+                        padding: 0 9px;
+                        font-size: 19px;
                         font-weight: 350;
                         text-decoration: none;
                         line-height: 40px;
@@ -200,7 +201,7 @@ nav {
             display: flex;
 
             a{
-                margin-right: 15rem; 
+                margin-right: 140px; 
             }
             
             .search_icon {
@@ -217,7 +218,7 @@ nav {
             .search_bar {
                 position: absolute;
                 top: 65px;
-                right: -15px;
+                right: -16px;
                 border: 5px solid $pink-color;
                 border-radius: 5px;
                 padding: 0.4em 4em 0.4em 0.6em;
