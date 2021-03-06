@@ -8,6 +8,7 @@ $green-arrow: #A0EADE;
 
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 *,
@@ -22,64 +23,60 @@ img {
     max-width: 100%;
 }
 
-body {
-    font-size: 16px;
-}
-
 #school-label {
     margin: 0 auto;
     width: 90%;
     display: flex;
-    font-size: 25px;
-    padding-top: 5px;
+    font-size: 3.5rem;
+    padding-top: 0.2em;
 
     .school-id {
         display: flex;
         width: 35%;
-        padding-top: 10px;
-        margin-left: 45px;
+        padding-top: 0.3em;
+        margin-left: 1.1em;
 
-        .school-badge {
+        // .school-badge {
 
-            // margin-bottom: -10px;
-            // width: 100px;
-            // height: 150px;
-        }
+        //     // margin-bottom: -10px;
+        //     // width: 100px;
+        //     // height: 150px;
+        // }
         .school-badge-text {
             display: flex;
             flex-direction: column;
             font-weight: 600;
-            font-size: 35px;
+            font-size: 1em;
             line-height: 0.8;
             color: $blue-color;
-            padding-top: 15px;
+            padding-top: 0.5em;
         }
     }
 
     .school-contact {
         display: flex;
         flex-wrap: wrap;
-        padding-top: 25px;
+        padding-top: 0.75em;
 
         .school-email, .school-phone  {
             display: flex;
             flex-direction: column;
             line-height: 0.6;
-            padding: 0 35px;
+            padding: 0 0.9em;
             border-right: 1px solid $transparent-black;
-            height: 45px;
+            height: 1.35em;
 
             .email-text, .phone-text {
                 font-weight: 200;
-                font-size: 16px;
-                margin: 10px 0;
+                font-size: 0.5em;
+                margin: 0.7em 0;
                 line-height: 0.4;
                 opacity: 0.8;
             }
 
             .email-address, .phone-number {
-                font-size: 25px;
-                font-weight: 600;
+                font-size: 0.7em;
+                font-weight: 500;
             }
         }
 
