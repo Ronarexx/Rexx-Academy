@@ -44,7 +44,7 @@ img {
             display: flex;
             flex-direction: column;
             font-weight: 600;
-            font-size: 2rem;
+            // font-size: 2rem;
             line-height: 0.8;
             color: $blue-color;
             padding-top: 0.5em;
@@ -54,7 +54,7 @@ img {
     .school-contact {
         display: flex;
         flex-wrap: wrap;
-        font-size: 2rem;
+        // font-size: 1.6em;
         padding-top: 0.7em;
 
         .school-email, .school-phone  {
@@ -67,14 +67,14 @@ img {
 
             .email-text, .phone-text {
                 font-weight: 200;
-                font-size: 0.5em;
+                // font-size: 0.5em;
                 margin: 0.5em 0;
                 line-height: 0.8;
                 opacity: 0.8;
             }
 
             .email-address, .phone-number {
-                font-size: 0.7em;
+                // font-size: 0.7em;
                 font-weight: 500;
             }
         }
@@ -85,7 +85,7 @@ img {
             border: 3px solid $pink-color;
             border-radius: 8px;
             height: 3.3em;
-            font-size: 1rem;
+            // font-size: 1rem;
             font-weight: 700;
             color: rgba(0, 0, 0, 0.5);
             &:hover {
