@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
+
 $blue-color: #0E34A0;
 $pink-color: #A4778B;
 $transparent-black: #0000004d;
@@ -9,7 +11,7 @@ $green-arrow: #A0EADE;
 html {
     box-sizing: border-box;
     font-size: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 *,
@@ -40,7 +42,7 @@ img {
         .school-badge-text {
             display: flex;
             flex-direction: column;
-            font-weight: 600;
+            font-weight: 500;
             font-size: 3.5rem;
             line-height: 0.8;
             color: $blue-color;
