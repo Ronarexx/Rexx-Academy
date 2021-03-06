@@ -9,9 +9,7 @@ $green-arrow: #A0EADE;
 
 
 html {
-    box-sizing: border-box;
-    font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;  
 }
 
 *,
@@ -21,7 +19,10 @@ html {
     margin: 0;
     padding: 0;
 }
-
+body {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
 img {
     max-width: 100%;
 }
@@ -30,23 +31,21 @@ img {
     margin: 0 auto;
     width: 90%;
     display: flex;
-    padding-top: 2rem;
     
     .school-id {
         display: flex;
         width: 35%;
-        padding-top: 0.3rem;
-        margin-left: 1.1rem;
+        margin: 2.5rem 1rem 0 2.5rem;
         border: 1px solid red;
         
         .school-badge-text {
             display: flex;
             flex-direction: column;
             font-weight: 500;
-            font-size: 3.5rem;
-            line-height: 0.8;
+            font-size: 2.3rem;
+            line-height: 0.95;
             color: $blue-color;
-            padding-top: 1.5rem;
+            padding-top: 0.7rem;
         }
     }
 
