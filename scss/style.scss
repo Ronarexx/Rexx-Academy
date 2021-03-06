@@ -8,7 +8,7 @@ $green-arrow: #A0EADE;
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -28,24 +28,23 @@ img {
     margin: 0 auto;
     width: 90%;
     display: flex;
-    font-size: 1.8rem;
     padding-top: 2rem;
     
     .school-id {
         display: flex;
         width: 35%;
-        padding-top: 0.3em;
-        margin-left: 1.1em;
-        border: 2px solid red;
+        padding-top: 0.3rem;
+        margin-left: 1.1rem;
+        border: 1px solid red;
         
         .school-badge-text {
             display: flex;
             flex-direction: column;
             font-weight: 600;
-            font-size: 2em;
+            font-size: 3.5rem;
             line-height: 0.8;
             color: $blue-color;
-            padding-top: 0.5em;
+            padding-top: 1.5rem;
         }
     }
 
